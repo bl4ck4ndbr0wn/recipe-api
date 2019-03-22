@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/bl4ck4ndbr0wn/recipe-api.svg?branch=master)](https://travis-ci.org/bl4ck4ndbr0wn/recipe-api)
+[![Build Status](https://travis-ci.org/bl4ck4ndbr0wn/recipe-api.svg?branch=master)](https://travis-ci.org/bl4ck4ndbr0wn/recipe-api) [![Maintainability](https://api.codeclimate.com/v1/badges/11b390b6347be061c407/maintainability)](https://codeclimate.com/github/bl4ck4ndbr0wn/recipe-api/maintainability)
 
 Recipe APi - A Social platform for the creative at heart with there recipe management.
 =======
