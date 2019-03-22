@@ -15,6 +15,7 @@ django-cors-middleware = "*"
 psycopg2-binary = "*"
 gunicorn = "*"
 django-heroku = "*"
+coveralls = "*"
 
 [requires]
 python_version = "3.7"
