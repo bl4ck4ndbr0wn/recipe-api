@@ -4,7 +4,7 @@ Recipe APi - A Social platform for the creative at heart with there recipe manag
 =======
 
 ## Running the app.
-Authors Haven app can be run by:
+Recipe app can be run by:
 ### STEP 1:
     Git clone this repository: `git clone https://github.com/bl4ck4ndbr0wn/recipe-api`
 
