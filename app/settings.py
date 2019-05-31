@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECURITY_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = "*"
 
 
 # Application definition
@@ -59,11 +59,9 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'app.urls'
-CORS_ORIGIN_ALLOW_ALL = False
-CORS_ORIGIN_WHITELIST = (
-    'google.com',
-    'localhost:8080'
-)
+# CORS configurations
+CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_METHODS = (
     'GET',
     'POST',
@@ -153,5 +151,7 @@ STATIC_URL = '/static/'
 
 # Custom Settings
 AUTH_USER_MODEL = 'core.user'
+
+
 
 django_heroku.settings(locals())
